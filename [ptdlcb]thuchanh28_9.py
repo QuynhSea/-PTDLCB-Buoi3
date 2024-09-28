@@ -7,8 +7,9 @@ Original file is located at
     https://colab.research.google.com/drive/1yIeYnDS7qtHM0P8-s6lzqbfxdVJoT71G
 """
 
-pip install pandas
 
+pip install pandas
+import streamlit as st
 import pandas as pd
 
 url = 'https://docs.google.com/spreadsheets/d/1ukptB00bVPnIkSin93AMLR8IaWwIRyUg/edit?usp=sharing&ouid=110136132342245561127&rtpof=true&sd=true'
