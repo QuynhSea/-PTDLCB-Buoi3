@@ -48,6 +48,7 @@ ax.set_title('Pokémon Capture Rate by Primary Type', pad=40)
 
 sns.despine(top=True, right=True)
 
+
 handles, labels = ax.get_legend_handles_labels()
 ax.legend(handles, ['Non-legendary', 'Legendary'], loc=(1.1, 1.1))  # Adjusted legend position
 plt.show()
